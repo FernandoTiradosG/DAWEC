@@ -49,16 +49,45 @@ Creamos el HTML y el JavaScript:
 ![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/Recursos/HTML2.png "Html")
 
 ![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/Recursos/JavaScript2.png "JavaScript")
-#### Prueba
 
+En consolo creamos las variables y para que nos muestre el resultado he metido las comparaciones dentro de variables:
+
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/Recursos/Consola2.png "Consola")
+#### Prueba
+Al cargar el HTML con el Javascript implementado podemos ver el resultado siguiente:
+
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/Recursos/Prueba2.png "Prueba HTML")
+
+Por consola para visualizar el resultado en consola llamamos a las variables que contienen las operaciones
+
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/Recursos/Prueba1.png "Prueba consola")
 ## Ejercicio 3: Comparaciones
 #### Analisis de Ejercicios
+```
+Objetivo: Comprender los operadores de comparación y cómo funcionan.
+ 1. Declara tres variables con diferentes valores.
+ 2. Utiliza operadores de comparación para comparar estas variables entre sí y muestra los resultados en la consola.
+```
 
 #### Diseño de la solución
+Se procede con los archivos necesarios y se realizan en ellos el ejercicio.
 #### Implementación de la solución
+Creamos el HTML y el JavaScript:
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%203/Recursos/HTML3.png "Html")
 
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%203/Recursos/JavaScript3.png "JavaScript")
+
+Y metemos las variables en la consola como en el ejercicio anterior:
+
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%203/Recursos/Consola3.png "Consola")
 #### Prueba
+Al cargar el HTML con el Javascript implementado podemos ver el resultado siguiente:
 
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%203/Recursos/Prueba1.png "Prueba HTML")
+
+Por consola para visualizar el resultado en consola llamamos a las variables que contienen las operaciones
+
+![alt text](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%203/Recursos/Prueba2.png "Prueba consola")
 ## Ejercicio 4: Estructuras Condicionales
 
 #### Analisis de Ejercicios

@@ -23,10 +23,10 @@ Objetivo: Implementar bucles para repetir acciones múltiples veces.
  2. Modificar el bucle anterior para mostrar solo los números pares entre 1 y 10.
 
  ```
-Primero tendremos que investigar sobre JavaScript para la realización de los ejercicios, ya sea a traves de W3School u otro y con la ayuda de ChatGPT aplicando las recomendaciones del profesor para interactuar con el.
+Primero tendremos que investigar sobre JavaScript para la realización de los ejercicios, ya sea a través de W3School u otro y con la ayuda de ChatGPT aplicando las recomendaciones del profesor para interactuar con él.
 
 ## :pencil2: Diseño de la solución
-Comenzaremos creando los archivos HTML y JavaScript en los que aplicaremos los ejercicios. En el primero usaremos el inspeccionador para entrar en la consola y poner en practica lo que en el segundo escribamos. En mi caso intentare tambien que a traves de script en el HTML lo escrito en el .js se vea escrito en la pagina del navegador.
+Comenzaremos creando los archivos HTML y JavaScript en los que aplicaremos los ejercicios. En el primero usaremos el inspeccionador para entrar en la consola y poner en práctica lo que en el segundo escribamos. En mi caso intentare tambián que a través de script en el HTML lo escrito en el .js se vea escrito en la página del navegador.
 
 ## :key: Implementación de la solución
 ### Ejercicio 1: Declaración y Tipos de Datos
@@ -35,7 +35,7 @@ Creamos el HTML y el JavaScript:
 
 ![alt text](/T1/SPRINT%201/Ejercicio1/Recursos/JavaScript1.png "JavaScript")
 
-Aparte tambien el codigo JavaScript se escribe en la consola del inspencionador del navegador:
+Aparte también el código JavaScript se escribe en la consola del inspencionador del navegador:
 
 ![alt text](/T1/SPRINT%201/Ejercicio1/Recursos/Consola1.png "Consola")
 ### Ejercicio 2: Operaciones Aritméticas
@@ -76,13 +76,13 @@ Al cargar el HTML con el Javascript implementado podemos ver el resultado siguie
 
 ![alt text](/T1/SPRINT%201/Ejercicio1/Recursos/Prueba1.png "Prueba HTML")
 
-En el caso del objeto, para que no aparezca "*[object Object]*", en el JavasScript se pone "*JSON.stringify*" y asi se muestra "*{}*".
+En el caso del objeto, para que no aparezca "*[object Object]*", en el JavasScript se pone "*JSON.stringify*" y así se muestra "*{}*".
 
 Y para ver el resultado en la consola llamamos a las variables creadas y el resultado es el siguiente:
 
 ![alt text](/T1/SPRINT%201/Ejercicio1/Recursos/Prueba2.png "Prueba Consola")
 
-Para evitar que de fallos la consola con la que realizamos estas declaraciones debe ser de una página distinta a la que contenga el HTML anterior y así evitar que se repita la variable y nos muestre el error de que ya esta creada.
+Para evitar que de fallos la consola con la que realizamos estas declaraciones debe ser de una página distinta a la que contenga el HTML anterior y así evitar que se repita la variable y nos muestre el error de que ya está creada.
 ### Ejercicio 2: Operaciones Aritméticas
 Al cargar el HTML con el Javascript implementado podemos ver el resultado siguiente:
 

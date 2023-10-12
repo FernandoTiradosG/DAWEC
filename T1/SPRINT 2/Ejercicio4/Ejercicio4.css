@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(248, 190, 82);
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+  }
+
+.caja {
+    width: 500px;
+    height: 350px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s;
+  }
+  

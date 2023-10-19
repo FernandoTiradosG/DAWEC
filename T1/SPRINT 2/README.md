@@ -109,7 +109,7 @@ Creamos solo dos archivos, ya que en este caso no necesitamos el CSS y el Html m
 
 Para este ejercicio se realizo una primera solución pero implicaba incluir el codigo del iframe en un Html aparte, pero se siguio intentando para que se pudiera solucionar sin tener que variar el Html original.
 ## :ok_hand: Prueba
-### [Plan de pruebas]()
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/RecursosGenerales/Test_Plan_Script2.xlsx)
 ![alt text](\RecursosGenerales/Test_de_prueba.png "Prueba 1")
 
 ### Ejercicio 1:Cambio de color del fondo

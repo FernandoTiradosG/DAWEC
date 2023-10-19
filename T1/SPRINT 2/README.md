@@ -49,90 +49,90 @@ Para este caso crearemos tres archivos un Html, un CSS y el JavaScript que inter
 Creamos los tres archivos:
 
 ***Html***
-![alt text](\Ejercicio1/Recursos/Html1.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio1/Recursos/Html1.png "Html")
 
 ***CSS***
-![alt text](\Ejercicio1/Recursos/CSS1.png "CSS")
+![alt text](/T1/SPRINT%202/Ejercicio1/Recursos/CSS1.png "CSS")
 
 ***JavaScript***
-![alt text](\Ejercicio1/Recursos/JavaScript1.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio1/Recursos/JavaScript1.png "Html")
 ___
 
 ### Ejercicio 2: Calculo del Area
 Creamos los tres archivos:
 
 ***Html***
-![alt text](\Ejercicio2/Recursos/Html2.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio2/Recursos/Html2.png "Html")
 
 ***CSS***
-![alt text](\Ejercicio2/Recursos/CSS2.png "CSS")
+![alt text](/T1/SPRINT%202/Ejercicio2/Recursos/CSS2.png "CSS")
 
 ***JavaScript***
-![alt text](\Ejercicio2/Recursos/JavaScript2.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio2/Recursos/JavaScript2.png "Html")
 ___
 
 ### Ejercicio 3: Creacion de una lista
 Creamos los tres archivos:
 
 ***Html***
-![alt text](\Ejercicio3/Recursos/Html3.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio3/Recursos/Html3.png "Html")
 
 ***CSS***
-![alt text](\Ejercicio3/Recursos/CSS3.png "CSS")
+![alt text](/T1/SPRINT%202/Ejercicio3/Recursos/CSS3.png "CSS")
 
 ***JavaScript***
 En este caso se ha realizado un función más como es la de borrar la lista:
-![alt text](\Ejercicio3/Recursos/JavaScript3.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio3/Recursos/JavaScript3.png "Html")
 ___
 
 ### Ejercicio 4: Cajas de colores
 Creamos los tres archivos:
 
 ***Html***
-![alt text](\Ejercicio4/Recursos/Html4.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio4/Recursos/Html4.png "Html")
 
 ***CSS***
-![alt text](\Ejercicio4/Recursos/CSS4.png "CSS")
+![alt text](/T1/SPRINT%202/Ejercicio4/Recursos/CSS4.png "CSS")
 
 ***JavaScript***
-![alt text](\Ejercicio4/Recursos/JavaScript4.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio4/Recursos/JavaScript4.png "Html")
 ___
 
 ### Ejercicio 5: Detector de XPATH
 Creamos solo dos archivos, ya que en este caso no necesitamos el CSS y el Html mostrado es el dado por el profesor:
 
 ***Html***
-![alt text](\Ejercicio5/Recursos/Html5.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio5/Recursos/Html5.png "Html")
 
 ***JavaScript***
-![alt text](\Ejercicio5/Recursos/JavaScript5.png "Html")
+![alt text](/T1/SPRINT%202/Ejercicio5/Recursos/JavaScript5.png "Html")
 
 Para este ejercicio se realizo una primera solución pero implicaba incluir el codigo del iframe en un Html aparte, pero se siguio intentando para que se pudiera solucionar sin tener que variar el Html original.
 ## :ok_hand: Prueba
 ### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/RecursosGenerales/Test_Plan_Script2.xlsx)
-![alt text](\RecursosGenerales/Test_de_prueba.png "Prueba 1")
+![alt text](/T1/SPRINT%202/RecursosGenerales/Test_de_prueba.png "Prueba 1")
 
 ### Ejercicio 1:Cambio de color del fondo
 El resultado de clicar varias veces en el botón para que cambie de color el fondo de forma aleatoria da el siguiente resultado:
 
-![alt text](\Ejercicio1/Recursos/Ejercicio1.gif "Prueba 1")
+![alt text](/T1/SPRINT%202/Ejercicio1/Recursos/Ejercicio1.gif "Prueba 1")
 ___
 ### Ejercicio 2:Calculo del Area
 Al escribir ambos valores pedidos y pulsar en el boton en el ultimo cuadro de texto te da el resultado:
 
-![alt text](\Ejercicio2/Recursos/Ejercicio2.gif "Prueba 2")
+![alt text](/T1/SPRINT%202/Ejercicio2/Recursos/Ejercicio2.gif "Prueba 2")
 ___
 ### Ejercicio 3:Creacion de una lista
 Se escribe en el cuadro de texto lo deseado y al clicar el botón se añade a la lista, si se quiere elimiar la lista creada se clica en el botón para ello.
 
-![alt text](\Ejercicio3/Recursos/Ejercicio3.gif "Prueba 3")
+![alt text](/T1/SPRINT%202/Ejercicio3/Recursos/Ejercicio3.gif "Prueba 3")
 ___
 ### Ejercicio 4:Cajas de colores
 Al pasar el raton sobre cada caja se colorea la caja del color que te indica a excepción del ultimo que te colorea el resto.
 
-![alt text](\Ejercicio4/Recursos/Ejercicio4.gif "Prueba 4")
+![alt text](/T1/SPRINT%202/Ejercicio4/Recursos/Ejercicio4.gif "Prueba 4")
 ___
 ### Ejercicio 5:Detector de XPATH
 Al hacer clic en la parte de la pagina que se deseé saltara un cuadro de alerta con el Xpath de la parte clicada.
 
-![alt text](\Ejercicio5/Recursos/Ejercicio5.gif "Prueba 5")
+![alt text](/T1/SPRINT%202/Ejercicio5/Recursos/Ejercicio5.gif "Prueba 5")

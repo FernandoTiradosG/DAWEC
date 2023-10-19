@@ -39,33 +39,100 @@ Especificaciones:
   
 Se adjunta el HTML para el ejercicio 5 llamado ‘Sprint2Ejercicio5.html’ Hay que hacer click sobre cada uno de los botones y tiene que venir reflejado que se ha hecho click sobre cada uno con una alerta que indique el XPATH relativo del que se ha realizado el click.
 ```
-
+Aquí necesitaremos recordar lo aprendido sobre Html y CSS, para poder interactuar con lo que vamos aprendiendo de JavaScript. Esto permitira comprobar lo que ChatGPT nos ofrezca en sus respuestas.
 
 ## :pencil2: Diseño de la solución
-
-
-
+Para este caso crearemos tres archivos un Html, un CSS y el JavaScript que interactuaran entre ellos. Comenzaremos incluyendo en el Html lo que se pida y creamos necesario para el ejercicio, en el CSS daremos estilo a los elementos que esten en el Html y en el JavaScript constuiremos las funciones que hagan lo que deseamos. 
 
 ## :key: Implementación de la solución
-### Ejercicio 1: Declaración y Tipos de Datos
+### Ejercicio 1: Cambio de color del fondo
+Creamos los tres archivos:
 
-### Ejercicio 2: Operaciones Aritméticas
+***Html***
+![alt text](\Ejercicio1/Recursos/Html1.png "Html")
 
-### Ejercicio 3: Comparaciones
+***CSS***
+![alt text](\Ejercicio1/Recursos/CSS1.png "CSS")
 
-### Ejercicio 4: Estructuras Condicionales
+***JavaScript***
+![alt text](\Ejercicio1/Recursos/JavaScript1.png "Html")
+___
 
-### Ejercicio 5: Bucles
+### Ejercicio 2: Calculo del Area
+Creamos los tres archivos:
 
+***Html***
+![alt text](\Ejercicio2/Recursos/Html2.png "Html")
 
+***CSS***
+![alt text](\Ejercicio2/Recursos/CSS2.png "CSS")
 
+***JavaScript***
+![alt text](\Ejercicio2/Recursos/JavaScript2.png "Html")
+___
+
+### Ejercicio 3: Creacion de una lista
+Creamos los tres archivos:
+
+***Html***
+![alt text](\Ejercicio3/Recursos/Html3.png "Html")
+
+***CSS***
+![alt text](\Ejercicio3/Recursos/CSS3.png "CSS")
+
+***JavaScript***
+En este caso se ha realizado un función más como es la de borrar la lista:
+![alt text](\Ejercicio3/Recursos/JavaScript3.png "Html")
+___
+
+### Ejercicio 4: Cajas de colores
+Creamos los tres archivos:
+
+***Html***
+![alt text](\Ejercicio4/Recursos/Html4.png "Html")
+
+***CSS***
+![alt text](\Ejercicio4/Recursos/CSS4.png "CSS")
+
+***JavaScript***
+![alt text](\Ejercicio4/Recursos/JavaScript4.png "Html")
+___
+
+### Ejercicio 5: Detector de XPATH
+Creamos solo dos archivos, ya que en este caso no necesitamos el CSS y el Html mostrado es el dado por el profesor:
+
+***Html***
+![alt text](\Ejercicio5/Recursos/Html5.png "Html")
+
+***JavaScript***
+![alt text](\Ejercicio5/Recursos/JavaScript5.png "Html")
+
+Para este ejercicio se realizo una primera solución pero implicaba incluir el codigo del iframe en un Html aparte, pero se siguio intentando para que se pudiera solucionar sin tener que variar el Html original.
 ## :ok_hand: Prueba
-### Ejercicio 1: Declaración y Tipos de Datos
+### [Plan de pruebas]()
+![alt text](\RecursosGenerales/Test_de_prueba.png "Prueba 1")
 
-### Ejercicio 2: Operaciones Aritméticas
+### Ejercicio 1:Cambio de color del fondo
+El resultado de clicar varias veces en el botón para que cambie de color el fondo de forma aleatoria da el siguiente resultado:
 
-### Ejercicio 3: Comparaciones
+![alt text](\Ejercicio1/Recursos/Ejercicio1.gif "Prueba 1")
+___
+### Ejercicio 2:Calculo del Area
+Al escribir ambos valores pedidos y pulsar en el boton en el ultimo cuadro de texto te da el resultado:
 
-### Ejercicio 4: Estructuras Condicionales
+![alt text](\Ejercicio2/Recursos/Ejercicio2.gif "Prueba 2")
+___
+### Ejercicio 3:Creacion de una lista
+Se escribe en el cuadro de texto lo deseado y al clicar el botón se añade a la lista, si se quiere elimiar la lista creada se clica en el botón para ello.
 
-### Ejercicio 5: Bucles
+![alt text](\Ejercicio3/Recursos/Ejercicio3.gif "Prueba 3")
+___
+### Ejercicio 4:Cajas de colores
+Al pasar el raton sobre cada caja se colorea la caja del color que te indica a excepción del ultimo que te colorea el resto.
+
+![alt text](\Ejercicio4/Recursos/Ejercicio4.gif "Prueba 4")
+___
+### Ejercicio 5:Detector de XPATH
+Al hacer clic en la parte de la pagina que se deseé saltara un cuadro de alerta con el Xpath de la parte clicada.
+
+![alt text](\Ejercicio5/Recursos/Ejercicio5.gif "Prueba 5")

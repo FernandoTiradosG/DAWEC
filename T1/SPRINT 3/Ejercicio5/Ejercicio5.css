@@ -1,0 +1,50 @@
+/* Estilo de la tabla */
+#miTabla {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#miTabla th, #miTabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#miTabla th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#miTabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#miTabla tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo de las cabeceras */
+#miTabla th {
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#miTabla th:hover {
+    cursor: pointer;
+}
+
+/* Estilo para el enlace de ordenamiento */
+#miTabla th a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Estilo para el enlace de ordenamiento activo */
+#miTabla th.active a::after {
+    content: '\25B2'; /* Triángulo hacia arriba (indicando ascendente) */
+}
+
+#miTabla th.active.desc a::after {
+    content: '\25BC'; /* Triángulo hacia abajo (indicando descendente) */
+}

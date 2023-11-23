@@ -109,63 +109,79 @@ Para la realización del ejercicio 5 tras oir el problema que tuvo el compañero
 
 ***JavaScript***
 
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_1.png "JavaScript 1")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_2.png "JavaScript 2")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_3.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_1.png "JavaScript 1")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_2.png "JavaScript 2")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_3.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_4.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_5.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_6.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_7.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_8.png "JavaScript 3")
 
 ***Html***
 
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/html1_1.png "Html")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/html1_1.png "Html")
 
 ***CSS***
 
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_1.png "CSS 1")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_2.png "CSS 2")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_3.png "CSS 3")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_4.png "CSS 4")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_5.png "CSS 5")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/css1_1.png "CSS 1")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/css1_2.png "CSS 2")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/css1_3.png "CSS 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/css1_4.png "CSS 4")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/css1_5.png "CSS 5")
 
 ## :ok_hand: Prueba
 
 ### Ejercicio 1: Información Básica del Pokémon
 
 Prueba 1:
+
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Pokemon1Prueba1.gif "Prueba 1")
 
 Prueba 2: Error
+
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Pokemon1Prueba2.gif "Prueba 2 Error")
 
 ### Ejercicio 2: Comparativa de Pokémon
 
 Prueba 1:
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Pokemon2Prueba1.gif "Prueba 1")
 
 Prueba 2:
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Pokemon2Prueba2.gif "Prueba 2")
 
 ### Ejercicio 3: Evoluciones y Habilidades
 
 Prueba 1:
+
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Pokemon3Prueba1.gif "Prueba 1")
 
 Prueba 2:
+
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Pokemon3Prueba2.gif "Prueba 2")
 
 ### Ejercicio 4: Explorador de Películas
 
 Prueba 1:
+
 ![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Movie1Prueba1.gif "Prueba 1")
 
 Prueba 2:
+
 ![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Movie1Prueba2.gif "Prueba 2")
 
 ### Ejercicio 5: Películas favoritas
 
 Prueba 1:
+
 ![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Movie2Prueba1.gif "Prueba 1")
 
 Prueba 2:
+
 ![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Movie2Prueba2.gif "Prueba 2")
 
 Prueba 3:
+
 ![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Movie2Prueba3.gif "Prueba 3")

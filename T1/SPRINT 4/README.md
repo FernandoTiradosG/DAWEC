@@ -67,9 +67,9 @@ En este caso creamos los archivos que necesitamos, en este caso HTML, CSS y Java
 
 ***JavaScript***
 
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_1.png "JavaScript 1")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_2.png "JavaScript 2")
-![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_3.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/javascript1_1.png "JavaScript 1")
+![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/javascript1_2.png "JavaScript 2")
+![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/javascript1_3.png "JavaScript 3")
 
 ***Html***
 
@@ -87,9 +87,9 @@ En este caso creamos los archivos que necesitamos, en este caso HTML, CSS y Java
 
 ***JavaScript***
 
-![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Javascript1_1.png "JavaScript 1")
-![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Javascript1_2.png "JavaScript 2")
-![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Javascript1_3.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/javascript1_1.png "JavaScript 1")
+![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/javascript1_2.png "JavaScript 2")
+![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/javascript1_3.png "JavaScript 3")
 
 ***Html***
 
@@ -109,14 +109,14 @@ Para la realización del ejercicio 5 tras oir el problema que tuvo el compañero
 
 ***JavaScript***
 
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_1.png "JavaScript 1")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_2.png "JavaScript 2")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_3.png "JavaScript 3")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_4.png "JavaScript 3")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_5.png "JavaScript 3")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_6.png "JavaScript 3")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_7.png "JavaScript 3")
-![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Javascript1_8.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_1.png "JavaScript 1")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_2.png "JavaScript 2")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_3.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_4.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_5.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_6.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_7.png "JavaScript 3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/javascript1_8.png "JavaScript 3")
 
 ***Html***
 

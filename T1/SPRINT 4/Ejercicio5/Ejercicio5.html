@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="Ejercicio4.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search for movies">
+    <select id="genreSelect">
+      <option value="all">All Genres</option>
+        <!-- Options for genres will be dynamically added via JavaScript -->
+    </select>
+    <button id="searchBtn">Search</button>
+    <button id="viewFavoritesBtn">Ver Favoritos</button>
+  </div>
+  <div id="resultsContainer" class="results-container"></div>
+  <div id="pagination" class="pagination"></div>
+
+   <!-- Espacio para mostrar las películas favoritas -->
+  <div id="favoritesContainer" style="display: none;">
+    <h2>Tus Favoritos</h2>
+    <div id="favoriteResults" class="results-container"></div>
+    
+  </div>
+
+  <script src="Ejercicio4.js"></script>
+</body>
+</html>

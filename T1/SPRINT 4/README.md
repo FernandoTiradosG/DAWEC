@@ -48,13 +48,16 @@ En este caso creamos los archivos que necesitamos, en este caso HTML, CSS y Java
 ### Ejercicio 1: Información Básica del Pokémon
 
 ***JavaScript***
+
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Javascript1_1.png "JavaScript 1")
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Javascript1_2.png "JavaScript 2")
 
 ***Html***
+
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/html1_1.png "Html")
 
 ***CSS***
+
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/css1_1.png "CSS 1")
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/css1_2.png "CSS 2")
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/css1_3.png "CSS 3")
@@ -63,14 +66,17 @@ En este caso creamos los archivos que necesitamos, en este caso HTML, CSS y Java
 ### Ejercicio 2: Comparativa de Pokémon
 
 ***JavaScript***
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_1.png "JavaScript 1")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_2.png "JavaScript 2")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_3.png "JavaScript 3")
 
 ***Html***
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/html1_1.png "Html")
 
 ***CSS***
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_1.png "CSS 1")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_2.png "CSS 2")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_3.png "CSS 3")
@@ -80,14 +86,17 @@ En este caso creamos los archivos que necesitamos, en este caso HTML, CSS y Java
 ### Ejercicio 3: Evoluciones y Habilidades
 
 ***JavaScript***
+
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Javascript1_1.png "JavaScript 1")
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Javascript1_2.png "JavaScript 2")
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Javascript1_3.png "JavaScript 3")
 
 ***Html***
+
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/html1_1.png "Html")
 
 ***CSS***
+
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/css1_1.png "CSS 1")
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/css1_2.png "CSS 2")
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/css1_3.png "CSS 3")
@@ -99,14 +108,17 @@ Ya que el ejercicio 5 es como una extension del ejercicio 4 se ha trabajado con 
 Para la realización del ejercicio 5 tras oir el problema que tuvo el compañero Jesus de no poder hacerlo directamente con la API lo primero que realice fue guardar los favoritos en un array pero al ver que si actualizabas la pagina no se quedaban guardados se busco otra forma que si lo permitiera y se realizo a traves de localStorage.
 
 ***JavaScript***
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_1.png "JavaScript 1")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_2.png "JavaScript 2")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Javascript1_3.png "JavaScript 3")
 
 ***Html***
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/html1_1.png "Html")
 
 ***CSS***
+
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_1.png "CSS 1")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_2.png "CSS 2")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/css1_3.png "CSS 3")
@@ -119,6 +131,7 @@ Para la realización del ejercicio 5 tras oir el problema que tuvo el compañero
 
 Prueba 1:
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Pokemon1Prueba1.gif "Prueba 1")
+
 Prueba 2: Error
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Pokemon1Prueba2.gif "Prueba 2 Error")
 
@@ -126,6 +139,7 @@ Prueba 2: Error
 
 Prueba 1:
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Pokemon2Prueba1.gif "Prueba 1")
+
 Prueba 2:
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Pokemon2Prueba2.gif "Prueba 2")
 
@@ -133,6 +147,7 @@ Prueba 2:
 
 Prueba 1:
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Pokemon3Prueba1.gif "Prueba 1")
+
 Prueba 2:
 ![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Pokemon3Prueba2.gif "Prueba 2")
 
@@ -140,6 +155,7 @@ Prueba 2:
 
 Prueba 1:
 ![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Movie1Prueba1.gif "Prueba 1")
+
 Prueba 2:
 ![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Movie1Prueba2.gif "Prueba 2")
 
@@ -147,7 +163,9 @@ Prueba 2:
 
 Prueba 1:
 ![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Movie2Prueba1.gif "Prueba 1")
+
 Prueba 2:
 ![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Movie2Prueba2.gif "Prueba 2")
+
 Prueba 3:
 ![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Movie2Prueba3.gif "Prueba 3")

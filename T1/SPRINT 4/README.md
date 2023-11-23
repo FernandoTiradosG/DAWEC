@@ -132,7 +132,7 @@ Para la realización del ejercicio 5 tras oir el problema que tuvo el compañero
 
 ## :ok_hand: Prueba
 
-### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/RecursosGenerales/Test_Plan_Script3.xlsx)
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%204/Test_Plan_Script4.xlsx)
 
 ![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Test_de_Prueba_1.png "PruebaTest1")
 ![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Test_de_Prueba_2.png "PruebaTest2")

@@ -132,6 +132,14 @@ Para la realización del ejercicio 5 tras oir el problema que tuvo el compañero
 
 ## :ok_hand: Prueba
 
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%202/RecursosGenerales/Test_Plan_Script3.xlsx)
+
+![alt text](/T1/SPRINT%204/Ejercicio1/Recursos/Test_de_Prueba_1.png "PruebaTest1")
+![alt text](/T1/SPRINT%204/Ejercicio2/Recursos/Test_de_Prueba_2.png "PruebaTest2")
+![alt text](/T1/SPRINT%204/Ejercicio3/Recursos/Test_de_Prueba_3.png "PruebaTest3")
+![alt text](/T1/SPRINT%204/Ejercicio4/Recursos/Test_de_Prueba_4.png "PruebaTest4")
+![alt text](/T1/SPRINT%204/Ejercicio5/Recursos/Test_de_Prueba_5.png "PruebaTest5")
+
 ### Ejercicio 1: Información Básica del Pokémon
 
 Prueba 1:

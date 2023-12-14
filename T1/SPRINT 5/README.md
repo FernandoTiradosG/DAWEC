@@ -204,7 +204,7 @@ En este caso tanto el HTML y el CSS no esta completo porque son demasiado extens
 
 ## :ok_hand: Prueba
 
-### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%204/Test_Plan_Script4.xlsx)
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%205/Recursos/Imagenes/Test/Test_Plan_Script5.xlsx)
 
 ![alt text](/T1/SPRINT%205/Recursos/Imagenes/Test/Test1.png "PruebaTest1")
 ![alt text](/T1/SPRINT%205/Recursos/Imagenes/Test/Test2.png "PruebaTest2")

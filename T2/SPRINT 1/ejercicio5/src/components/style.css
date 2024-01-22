@@ -1,0 +1,130 @@
+/* Estilos para la Lista de Tareas Low Poly */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ecf0f1;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px; /* Ajusta el ancho del contenedor según tus necesidades */
+  padding: 20px;
+  background-color: #3498db;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ecf0f1;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #bdc3c7;
+  display: flex;
+  align-items: center;
+  background-color: #ecf0f1;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+li.completed {
+  background-color: #2ecc71;
+  color: white;
+}
+
+li input[type="checkbox"] {
+  width: 30px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.task-info {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.task-actions {
+  width: 20%;
+  margin-left: auto;
+  display: flex;
+}
+
+.task-actions button {
+  margin-left: 5px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80px; /* Ajusta el ancho según tus necesidades */
+}
+
+.task-actions button:hover {
+  background-color: #c0392b;
+}
+
+select {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+select:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+select option[disabled] {
+  color: #7f8c8d;
+}
+
+select option[disabled]:hover {
+  background-color: transparent;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+

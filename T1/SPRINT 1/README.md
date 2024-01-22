@@ -1,4 +1,4 @@
-# Script 1: Introducción a JavaScript (Básico)
+# Sprint 1: Introducción a JavaScript (Básico)
 
 ## :microscope: Analisis de Ejercicios
 ```

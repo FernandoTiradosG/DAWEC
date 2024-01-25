@@ -166,7 +166,7 @@ En este caso comenzamos con React por lo que empezaremos investigando un poco so
 
 ## :ok_hand: Prueba
 
-### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T1/SPRINT%205/Recursos/Imagenes/Test/Test_Plan_Script5.xlsx)
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T2/SPRINT%201/Recursos/Test_Plan_Script6.xlsx)
 
 ![alt text](/T2/SPRINT%201/Recursos/TestPlan1.png "PruebaTest1")
 ![alt text](/T2/SPRINT%201/Recursos/TestPlan2.png "PruebaTest2")

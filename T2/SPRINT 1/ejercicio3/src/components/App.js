@@ -3,7 +3,7 @@ import Contador from "./ContadorClick";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <div>
         <h1>Contador de click</h1>
         <Contador />

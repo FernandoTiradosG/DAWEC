@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './style.css';
 
 const ToDoApp = () => {
   const [nuevaTarea, setNuevaTarea] = useState(""); // Estado para la nueva tarea

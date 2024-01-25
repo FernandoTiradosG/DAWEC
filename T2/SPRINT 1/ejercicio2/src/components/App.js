@@ -19,7 +19,7 @@ const verano = [
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <div>
         <h1>Frutas Exoticas</h1>
         <ListaFrutas frutas={exoticas} />

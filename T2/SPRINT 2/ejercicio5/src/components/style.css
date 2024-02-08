@@ -1,0 +1,91 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.reel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* Para un desplazamiento suave en dispositivos iOS */
+  transition: transform 0.5s ease; /* Transición suave */
+}
+
+.images-container img {
+  flex: 0 0 auto;
+  margin-right: 10px; /* Espacio entre las imágenes */
+  scroll-snap-align: start;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%; /* Ajuste el ancho máximo según sea necesario */
+
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.modal-content img {
+  width: auto; /* Ajuste el ancho máximo según sea necesario */
+  height: 50vh; /* Ajuste la altura máxima según sea necesario */
+}
+
+.modal-content p {
+  margin-top: 10px;
+}
+
+.buscador-container {
+  display: flex;
+  justify-content: center;
+}

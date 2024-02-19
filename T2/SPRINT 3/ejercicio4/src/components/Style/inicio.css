@@ -1,0 +1,26 @@
+.inicio-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.botones-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.boton-registrarse,
+.boton-iniciar-sesion {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.boton-registrarse:hover,
+.boton-iniciar-sesion:hover {
+  background-color: #0056b3;
+}

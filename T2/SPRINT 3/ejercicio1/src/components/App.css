@@ -1,0 +1,50 @@
+/* Estilos para el primer componente */
+.container1 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.heading1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el segundo componente */
+.container2 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.heading2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button2 {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

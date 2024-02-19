@@ -1,4 +1,8 @@
 /* Estilos para el reel */
+::-webkit-scrollbar {
+  display: none;
+}
+
 .reel {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

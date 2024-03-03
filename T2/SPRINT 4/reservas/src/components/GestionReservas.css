@@ -1,0 +1,39 @@
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.calendar {
+  margin-right: 20px;
+}
+
+.time-slots {
+  max-width: 300px;
+}
+
+.time-slots ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.time-slots li {
+  margin-bottom: 10px;
+}
+
+.time-slots button {
+  margin-left: 10px;
+}
+
+.available {
+  background-color: rgba(191, 236, 202);
+}
+
+.reserved {
+  background-color: yellow;
+}
+
+.cancelled {
+  background-color: red;
+}
+

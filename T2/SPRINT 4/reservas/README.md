@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Sprint 4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :microscope: Analisis de Ejercicios
 
-## Available Scripts
+```txt
+Sitios de reservas - Gestión de reservas
 
-In the project directory, you can run:
+  - Objetivo: Desarrollar un sistema `GestionReservas` que permita a los usuarios logeados realizar y gestionar reservas en un calendario interactivo.
 
-### `npm start`
+  - Tareas:
+    + Crea un componente `GestionReservas` con un estado que incluya las reservas del usuario, el calendario del centro y los horarios disponibles.
+    + Implementa un calendario interactivo que muestre los días y horarios disponibles para realizar reservas.
+    + Agrega métodos para realizar una nueva reserva, modificar una existente y cancelar reservas.
+    + El método `render` debe mostrar el calendario, permitir la selección de fechas y horarios disponibles y gestionar las reservas del usuario.
+    + Asegura que solo se puedan seleccionar horarios disponibles evitando solapamientos y respetando las restricciones del centro.
+    + Renderiza `GestionReservas` en `App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - Prueba: Verifica que los usuarios pueden realizar, modificar y cancelar reservas correctamente, y que el sistema gestiona adecuadamente las disponibilidades.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :pencil2: Diseño de la solución
 
-### `npm test`
+En este ejercicio aplicaremos todo los conocimientos que hemos adquirido. Aun asi, necesitaremos investigar mas cosas sobre React como el el modulo reac-calendar el cual nos ofrece un calendario con el que podemos interactuar. A partir de aqui aplicaremos toda la logica necesaria para realizar el Sitio de reservas. Neceserio es comentar que para el sistemas de usuarios, en concreto los administradosres, a la hora de registrarse se le dara el rol de admin si el correo que introducen termina en 'admin.com'.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :key: Implementación de la solución
 
-### `npm run build`
+***App***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![alt text](/T2/SPRINT%204/Recursos/imagenes/app.png "Javascript App")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+***Inicio***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![alt text](/T2/SPRINT%204/Recursos/imagenes/inicio.png "Javascript Inicio")
 
-### `npm run eject`
+***Login***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![alt text](/T2/SPRINT%204/Recursos/imagenes/login1.png "Javascript Login1")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/login2.png "Javascript Login2")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***Registro***
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![alt text](/T2/SPRINT%204/Recursos/imagenes/registro1.png "Javascript Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/registro2.png "Javascript Registro")
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+***Gestion Registro***
 
-## Learn More
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc1.png "Javascript Gestion Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc2.png "Javascript Gestion Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc3.png "Javascript Gestion Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc4.png "Javascript Gestion Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc5.png "Javascript Gestion Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc6.png "Javascript Gestion Registro")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/gc7.png "Javascript Gestion Registro")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+***Modal para modificar***
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![alt text](/T2/SPRINT%204/Recursos/imagenes/modificar.png "Javascript Modal Modificar")
 
-### Code Splitting
+***Modal para datos de usuario***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![alt text](/T2/SPRINT%204/Recursos/imagenes/datos.png "Javascript Modal Datos Usuario")
 
-### Analyzing the Bundle Size
+***Modal para modal de pago***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![alt text](/T2/SPRINT%204/Recursos/imagenes/pago.png "Javascript Modal Pago")
 
-### Making a Progressive Web App
+***Firebase***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![alt text](/T2/SPRINT%204/Recursos/imagenes/firebase.png "Javascript Firebase")
 
-### Advanced Configuration
+## :ok_hand: Prueba
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T2/SPRINT%203/Recursos/Test_Plan_Script8.xlsx)
 
-### Deployment
+![alt text](/T2/SPRINT%203/Recursos/TestPlan1.png "PruebaTest1")
+![alt text](/T2/SPRINT%203/Recursos/TestPlan2.png "PruebaTest2")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+***Creacion User***
 
-### `npm run build` fails to minify
+![alt text](/T2/SPRINT%204/Recursos/gifs/registro-user.gif "Creacion User")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***Creacion Admin***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/registro-admin.gif "Creacion Admin")
+
+***Login User***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/login-user.gif "Login User")
+
+***Login Admin***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/login-user.gif "Login Admin")
+
+***Anular Horas***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/anularhoras.gif "Anular")
+
+***Crear Reserva***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/reservarhora.gif "Crear")
+
+***Modificar Reserva***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/modificar.gif "Modificar")
+
+***Otro User***
+
+![alt text](/T2/SPRINT%204/Recursos/gifs/otroUser.gif "Otro User")

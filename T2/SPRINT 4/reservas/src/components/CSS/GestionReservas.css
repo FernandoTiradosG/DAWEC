@@ -1,0 +1,147 @@
+/* Estilos para la página principal */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Estilos específicos para el contenedor de calendario */
+.calendar-container .time-slots {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calendar-container .time-slots ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.calendar-container .time-slots li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.time-slots button {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.time-slots button:hover {
+  background-color: #ffdb4d;
+}
+
+/* Estilos para horarios disponibles */
+.available {
+  background-color: rgb(102, 190, 102);
+  color: white;
+}
+.available:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+/* Estilos para horarios reservados */
+.reserved {
+  background-color: yellow;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Estilos para horarios cancelados */
+.cancelled {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  pointer-events: none;
+}
+
+.logout {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.logout:hover {
+  background-color: #ffdb4d;
+}

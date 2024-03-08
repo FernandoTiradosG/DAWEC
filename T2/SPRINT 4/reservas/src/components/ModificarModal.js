@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CSS/Modal.css';
 
 const ModificarModal = ({ show, handleClose, reservaSeleccionada, handleModificarReserva }) => {
   const [nuevosDatos, setNuevosDatos] = useState({
@@ -23,7 +24,7 @@ const ModificarModal = ({ show, handleClose, reservaSeleccionada, handleModifica
 
   return (
     <div className={show ? "modal display-block" : "modal display-none"}>
-      <section className="modal-main">
+      <section className="modal-main modify-modal">
         <h2>Modificar Reserva</h2>
         <form onSubmit={handleSubmit}>
           <label>

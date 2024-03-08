@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { auth } from '../utils/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './CSS/Login.css'
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -44,11 +46,15 @@ const Login = () => {
           placeholder="Contraseña"
           required
         />
-        <button type="submit">Iniciar Sesión</button>
+        <button type="submit" className="boton-iniciar-sesion">Iniciar Sesión</button>
       </form>
       <div className="inicio-sesion-links">
-        <button onClick={() => navigate('/registro')}>Registrarse</button>
-        <button onClick={() => navigate('/')}>Inicio</button>
+        <Link to="/registro">
+          <button className="boton-registrarse">Registrarse</button>
+        </Link>
+        <Link to="/">
+          <button className="boton-inicio">Inicio</button>
+        </Link>
       </div>
       {error && <p style={{ color: 'red' }}>{error}</p>}
     </div>

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { auth } from '../utils/firebase';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom'; // Importa useNavigate para la navegación programática
+import { Link } from 'react-router-dom';
+import './CSS/Registro.css'
 
 function Registro() {
   const [email, setEmail] = useState('');
@@ -51,11 +53,15 @@ function Registro() {
           placeholder="Contraseña"
           required
         />
-        <button type="submit">Registrarse</button>
+        <button type="submit" className="boton-registrarse">Registrarse</button>
       </form>
       <div className="registro-links">
-        <button onClick={() => navigate('/login')}>Iniciar Sesión</button>
-        <button button onClick={() => navigate('/')}>Inicio</button>
+        <Link to="/login">
+          <button className="boton-iniciar-sesion">Iniciar Sesión</button>
+        </Link>
+        <Link to="/">
+          <button className="boton-inicio">Inicio</button>
+        </Link>
       </div>
       {error && <p style={{ color: 'red' }}>{error}</p>} {/* Muestra el mensaje de error si existe */}
       {successMessage && <p>{successMessage}</p>} {/* Muestra el mensaje de éxito */}

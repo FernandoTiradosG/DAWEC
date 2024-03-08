@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import './GestionReservas.css';
+import './CSS/GestionReservas.css';
 import ModalDatosUsuario from './ModalDatosUsuario';
 import ModalPago from './ModalPago';
 import ModificarModal from './ModificarModal';
@@ -34,7 +34,6 @@ const GestionReservas = () => {
   const [reservaSeleccionada, setReservaSeleccionada] = useState(null);
 
   useEffect(() => {
-    console.log("Reservas por día:", reservasPorDia);
     // Guardar las reservas en el almacenamiento local cada vez que cambien
     localStorage.setItem('reservasPorDia', JSON.stringify(reservasPorDia));
   }, [reservasPorDia]);
@@ -131,6 +130,8 @@ const GestionReservas = () => {
   // Función para manejar la cancelación del pago
   const handleCancelarPago = () => {
     setShowPagoModal(false); // Cerrar el modal de pago
+    setSelectedTime('');
+    liberarHoraSeleccionada(selectedTime);
     // Si deseas realizar alguna otra acción al cancelar el pago, puedes hacerlo aquí
   };
 
@@ -142,8 +143,6 @@ const GestionReservas = () => {
     // Verificar si la fecha seleccionada es posterior o igual a hoy y si la hora seleccionada es válida
     return selectedDateTime >= now && selectedDateTime - now >= 5400000; // 5400000 ms = 1.5 horas
   };
-
-  
 
   // Obtener las reservas para el día seleccionado
   const reservasParaDiaSeleccionado = reservasPorDia[selectedDate.toDateString()] || [];
@@ -157,13 +156,13 @@ const GestionReservas = () => {
 
   // Horarios disponibles para el día seleccionado
   const horariosDisponibles = [
-    { time: '11:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '11:00'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '11:00') },
-    { time: '13:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '13:00'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '13:00') },
-    { time: '16:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '16:00'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '16:00') },
-    { time: '18:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '18:00'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '18:00') },
-    { time: '20:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '20:00'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '20:00') },
-    { time: '21:45', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '21:45'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '21:45') },
-    { time: '23:30', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '23:30'), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '23:30') }
+    { time: '11:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '11:00' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '11:00') },
+    { time: '13:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '13:00' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '13:00') },
+    { time: '16:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '16:00' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '16:00') },
+    { time: '18:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '18:00' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '18:00') },
+    { time: '20:00', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '20:00' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '20:00') },
+    { time: '21:45', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '21:45' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '21:45') },
+    { time: '23:30', available: !reservasParaDiaSeleccionado.some(reserva => reserva.time === '23:30' && !reserva.cancelled), reservationData: obtenerDatosReserva(reservasParaDiaSeleccionado, '23:30') }
   ];
   
   const handleOpenModificar = (time) => {
@@ -180,12 +179,13 @@ const GestionReservas = () => {
       return;
     }
   
-    // Actualiza la reserva con los nuevos datos
+    // Obtiene la reserva actualizada
     const reservaActualizada = {
       ...reservaSeleccionada,
-      nombre: nuevosDatos.nombre,
-      correo: nuevosDatos.email,
-      telefono: nuevosDatos.telefono
+      nombre: nuevosDatos.nombre ? nuevosDatos.nombre : reservaSeleccionada.nombre,
+      correo: nuevosDatos.email ? nuevosDatos.email : reservaSeleccionada.correo,
+      telefono: nuevosDatos.telefono ? nuevosDatos.telefono : reservaSeleccionada.telefono,
+      comentarios: nuevosDatos.comentarios ? nuevosDatos.comentarios : reservaSeleccionada.comentarios
     };
   
     // Realiza la actualización en el estado o donde tengas almacenadas las reservas
@@ -206,6 +206,38 @@ const GestionReservas = () => {
   
     // Mensaje de éxito o cualquier otra acción que desees realizar
     console.log('Reserva modificada correctamente:', reservaActualizada);
+  };
+  
+
+  const [horasAnuladasPorDia, setHorasAnuladasPorDia] = useState(() => {
+    const storedHorasAnuladas = localStorage.getItem('horasAnuladasPorDia');
+    return storedHorasAnuladas ? JSON.parse(storedHorasAnuladas) : {};
+  });
+
+  const handleAnularHora = (time) => {
+    const selectedDateKey = selectedDate.toDateString();
+    const horasAnuladasParaFecha = horasAnuladasPorDia[selectedDateKey] || [];
+
+    if (horasAnuladasParaFecha.includes(time)) {
+      // Si la hora ya está anulada, la eliminamos
+      const updatedHorasAnuladas = horasAnuladasParaFecha.filter(hora => hora !== time);
+      setHorasAnuladasPorDia({ ...horasAnuladasPorDia, [selectedDateKey]: updatedHorasAnuladas });
+    } else {
+      // Si la hora no está anulada, la agregamos
+      const updatedHorasAnuladas = [...horasAnuladasParaFecha, time];
+      setHorasAnuladasPorDia({ ...horasAnuladasPorDia, [selectedDateKey]: updatedHorasAnuladas });
+    }
+  };
+
+  useEffect(() => {
+    // Guardar las horas anuladas en el almacenamiento local cada vez que cambien
+    localStorage.setItem('horasAnuladasPorDia', JSON.stringify(horasAnuladasPorDia));
+  }, [horasAnuladasPorDia]);
+
+  const esHoraCancelada = (time) => {
+    const selectedDateKey = selectedDate.toDateString();
+    const horasAnuladasParaFecha = horasAnuladasPorDia[selectedDateKey] || [];
+    return horasAnuladasParaFecha.includes(time);
   };
 
   const handleLogout = async () => {
@@ -232,37 +264,37 @@ const GestionReservas = () => {
       <div className="time-slots">
         <h3>Horarios Disponibles para {selectedDate.toDateString()}</h3>
         <ul>
-        {horariosDisponibles.map(horario => (
-          <li key={horario.time}>
-            <span
-              className={`time-slot ${horario.available ? (esHoraValida(horario.time) ? 'available' : 'cancelled') : 'reserved'}`}
-              onClick={() => {
-                if (horario.available && esHoraValida(horario.time)) {
-                  hacerReserva(horario.time); // Pasa los datos de reserva al hacer la reserva
-                } else if (!horario.available) {
-                  liberarHoraSeleccionada(horario.time); // Cancelar la reserva si está ocupada
-                }
-              }}
-            >
-              {horario.time}
-              {isAdmin && horario.reservationData && (
-                <>
-                <span className="reservation-info">/{horario.reservationData}</span>
-                </>
-              )}
-            </span>
-              {isAdmin && horario.reservationData && (
+          {horariosDisponibles.map(horario => (
+            <li key={horario.time}>
+              <span
+                className={`time-slot ${horario.available ? (esHoraValida(horario.time) && !esHoraCancelada(horario.time) ? 'available' : 'cancelled') : 'reserved'}`}
+                onClick={() => {
+                  if (horario.available && esHoraValida(horario.time)) {
+                    hacerReserva(horario.time); // Pasa los datos de reserva al hacer la reserva
+                  } else if (!horario.available) {
+                    liberarHoraSeleccionada(horario.time); // Cancelar la reserva si está ocupada
+                  }
+                }}
+              >
+                {horario.time}
+                {isAdmin && horario.reservationData && (
+
+                  <>
+                    <span className="reservation-info">/{horario.reservationData}</span>
+                  </>
+                )}
+              </span>
+              {isAdmin && horario.reservationData && esHoraValida(horario.time) && (
                 <div>
-                <button onClick={() => handleOpenModificar(horario.time)}>Modificar</button>
-                <button onClick={handleAnularHora}>Anular Hora</button>
+                  <button onClick={() => handleOpenModificar(horario.time)}>Modificar</button>
+                  <button onClick={() => handleAnularHora(horario.time)}>{!esHoraCancelada(horario.time) ? 'Anular Hora' : 'Restaurar Hora'}</button>
                 </div>
               )}
-          </li>
-        ))}
-
+            </li>
+          ))}
         </ul>
       </div>
-      <button onClick={handleLogout}>Cerrar sesión</button>
+      <button className='logout' onClick={handleLogout}>Cerrar sesión</button>
       <ModalDatosUsuario 
         show={showReservaModal} 
         handleClose={handleCancelarReserva} 

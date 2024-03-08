@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './Modal.css';
+import { auth } from '../utils/firebase';
+import './CSS/Modal.css';
 
 const ModalDatosUsuario = ({ show, handleClose, handleConfirm, reservationData }) => {
   const [nombre, setNombre] = useState('');
@@ -14,6 +15,13 @@ const ModalDatosUsuario = ({ show, handleClose, handleConfirm, reservationData }
       setCorreo(reservationData.correo || '');
       setTelefono(reservationData.telefono || '');
     }
+
+        // Obtener el usuario autenticado
+        const user = auth.currentUser;
+        if (user) {
+          // Establecer el correo electrónico del usuario autenticado en el campo correspondiente
+          setCorreo(user.email || '');
+        }
   }, [reservationData]);
 
   const handleConfirmarDatos = () => {
@@ -27,7 +35,7 @@ const ModalDatosUsuario = ({ show, handleClose, handleConfirm, reservationData }
 
   return (
     <div className={show ? "modal display-block" : "modal display-none"}>
-      <section className="modal-main">
+      <section className="modal-main user-data-modal">
         <h2>Datos del Usuario</h2>
         <form>
           <label>

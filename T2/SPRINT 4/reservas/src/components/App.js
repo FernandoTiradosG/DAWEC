@@ -1,4 +1,4 @@
-import './App.css';
+import './CSS/App.css';
 import GestionReservas from './GestionReservas.js';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';

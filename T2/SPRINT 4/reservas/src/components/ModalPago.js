@@ -1,6 +1,6 @@
 // ModalPago.js
 import React, { useState } from 'react';
-import './Modal.css';
+import './CSS/Modal.css';
 
 const ModalPago = ({ show, handleClose, handleConfirm }) => {
   const [numeroTarjeta, setNumeroTarjeta] = useState('');
@@ -16,7 +16,7 @@ const ModalPago = ({ show, handleClose, handleConfirm }) => {
 
   return (
     <div className={show ? "modal display-block" : "modal display-none"}>
-      <section className="modal-main">
+      <section className="modal-main payment-modal">
         <h2>Pago</h2>
         <form>
           <label>

@@ -70,10 +70,11 @@ En este ejercicio aplicaremos todo los conocimientos que hemos adquirido. Aun as
 
 ## :ok_hand: Prueba
 
-### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T2/SPRINT%203/Recursos/Test_Plan_Script8.xlsx)
+### [Plan de pruebas](https://github.com/FernandoTiradosG/DAWEC/blob/main/T2/SPRINT%204/Recursos/Test_Plan_Script9.xlsx)
 
-![alt text](/T2/SPRINT%203/Recursos/TestPlan1.png "PruebaTest1")
-![alt text](/T2/SPRINT%203/Recursos/TestPlan2.png "PruebaTest2")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/PlanPruebas1.png "PruebaTest1")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/PlanPruebas2.png "PruebaTest2")
+![alt text](/T2/SPRINT%204/Recursos/imagenes/PlanPruebas3.png "PruebaTest3")
 
 ***Creacion User***
 
